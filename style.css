@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
 body{
     margin:0;
     font-family: Arial;
@@ -16,7 +27,6 @@ header{
     gap: 40px;
 }
 
-/* FORM */
 .form-box{
     background: white;
     padding: 20px;
@@ -26,9 +36,13 @@ header{
 
 input, textarea{
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 12px;
+    border: 2px solid #777;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
+
 
 textarea{
     height: 150px;
@@ -36,13 +50,15 @@ textarea{
 
 button{
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background: #28a745;
     color: white;
     border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-/* TASK LIST */
 .task-box{
     flex: 1;
     color: white;
@@ -71,4 +87,5 @@ button{
     border: none;
     padding: 5px;
     cursor: pointer;
+
 }
