@@ -25,12 +25,14 @@ header{
     display: flex;
     padding: 40px;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .form-box{
     background: white;
     padding: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
     border-radius: 5px;
 }
 
@@ -89,3 +91,4 @@ button{
     cursor: pointer;
 
 }
+
